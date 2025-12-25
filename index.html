@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trendy | Women's Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <h1 class="logo editable">trendy.</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#dresses" class="nav-link">Dresses</a></li>
+                <li><a href="#shirts" class="nav-link">Shirts</a></li>
+                <li><a href="#footer" class="nav-link">Contact</a></li>
+                <li class="cart-icon"><a href="#"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2 class="editable">Be Unique. Be Trendy.</h2>
+            <p class="editable">Discover the latest fashion trends at unbeatable prices.</p>
+            <a href="#dresses" class="btn btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+    <main class="container main-content">
+
+        <section id="dresses" class="section-panel">
+            <h2 class="section-title">Latest Dresses collection</h2>
+            <p class="section-subtitle">35 items available</p>
+            <div class="product-grid" id="dresses-grid">
+                </div>
+        </section>
+
+        <section id="shirts" class="section-panel">
+            <h2 class="section-title">Trendy Shirts & Tops</h2>
+            <p class="section-subtitle">17 items available</p>
+            <div class="product-grid" id="shirts-grid">
+                 </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="container footer-container">
+            <div class="footer-about">
+                <h2 class="editable">trendy.</h2>
+                <p>Your daily dose of style. Professional quality clothing at affordable prices.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Have questions? Reach out!</p>
+                <a href="https://wa.me/+917483892496?text=Hi%20trendy,%20I'm%20interested%20in%20your%20clothes." target="_blank" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 trendy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+<div id="mobile-popup" class="popup-overlay">
+        <div class="popup-content">
+            <div class="popup-icon">
+                <i class="fas fa-desktop"></i>
+            </div>
+            <h3>Desktop Recommended</h3>
+            <p>Please open in desktop mode for a better shopping experience.</p>
+            <button id="close-popup-btn" class="btn btn-primary">Continue Anyway</button>
+        </div>
+    </div>
+</html>
